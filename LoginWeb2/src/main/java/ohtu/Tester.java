@@ -26,6 +26,6 @@ public class Tester {
         
         System.out.println("==");
         System.out.println( driver.getPageSource() );
-        
+     //   WebElement element = driver.findElement(By.linkText("login"));
     }
 }
